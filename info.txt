@@ -1,0 +1,20 @@
+use react Icons
+https://react-icons.github.io/react-icons/
+
+use react slick
+https://react-slick.neostack.com
+
+npm install react-slick --save
+npm install slick-carousel --save
+
+Hero and Slide, page.tsx
+
+in layout.tsx
+import "~slick-carousel/slick/slick.css"; 
+import "~slick-carousel/slick/slick-theme.css";
+
+Dark modell
+ui.shadcn.com/docs/dark-mode
+
+npm i next-themes
+
