@@ -1,3 +1,4 @@
+
 import HeaderTop from '@/components/HeaderTop'
 import './globals.css'
 import type { Metadata } from 'next'
@@ -11,6 +12,7 @@ import Footer from '@/components/Footer'
 import MobNavbar from '@/components/MobiNavbar'
 import { ThemeProvider } from "@/components/theme-provider"
 import "tw-elements/dist/css/tw-elements.min.css";
+import Mobilbar from '@/components/Mobilbar'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -32,7 +34,7 @@ export default function RootLayout({
       <HeaderTop />
       <HeaderMain />
       <Navbar />
-      <MobNavbar />
+      <Mobilbar />
         {children}
        <Footer />
        </ThemeProvider>
